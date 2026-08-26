@@ -2,10 +2,14 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\UserController;
 
 Route::get('/', function () {
     return view('welcome');
 });
+
+// Definimos la ruta /usuarios que apunta al método index del UserController
+Route::get('/usuarios', [UserController::class, 'index']);
 
 Route::get('/dashboard', function () {
     return view('dashboard');
