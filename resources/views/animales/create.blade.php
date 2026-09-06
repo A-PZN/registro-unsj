@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
- <div class="bg-gray-800 rounded-xl shadow-xl p-6 border border-gray-700">
+ <div class=" max-w-4xl mx-auto space-y-8 bg-gray-800 rounded-xl shadow-xl p-6 border border-gray-700">
         <h2 class="text-2xl font-bold  mb-4 flex items-center gap-2">
             Registra a tu mascota
         </h2>
@@ -15,7 +15,7 @@
             @csrf
             <!--Campo  Nombre -->
             <div class="flex flex-col">
-                <label for="nombre" class="text-sm font-semibold text-gray-400 mb-1"></label>
+                <label for="nombre" class="text-sm font-semibold text-white mb-1"></label>
                 <input type="text" name="nombre" id="nombre" 
                        class="bg-gray-700 border  text-white rounded-lg px-4 py-2 focus:outline-none focus:border-fuchsia-400 focus:ring-1 focus:ring-teal-500 transition"
                        placeholder="Nombre" required>

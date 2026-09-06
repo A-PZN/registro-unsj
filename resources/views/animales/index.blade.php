@@ -26,7 +26,7 @@
         <!--cuerpo del formulario-->
                 <!--Campo Nombre-->
             <div class="flex flex-col">
-                <label for="nombre" class="text-sm font-semibold text-gray-400 mb-1"></label>
+                <label for="nombre" class="text-sm font-semibold  mb-1"></label>
                 <input type="text" name="nombre" id="nombre" 
                        class="bg-gray-700 border border-fuchsia-400 text-white rounded-lg px-4 py-2 focus:outline-none focus:border-fuchsia-400 focus:ring-1 focus:ring-teal-500 transition"
                        placeholder="Nombre" required>
