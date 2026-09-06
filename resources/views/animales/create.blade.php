@@ -5,6 +5,10 @@
         <h2 class="text-2xl font-bold  mb-4 flex items-center gap-2">
             Registra a tu mascota
         </h2>
+
+         <p class="text-gray-200 text-lg mb-4">
+        Completa todos los datos para registrar el nuevo animal.
+        </p>
        
         <form action="{{ route('animales.store') }}" method="POST" class="grid grid-cols-1 md:grid-cols-3 gap-4 items-end">
             <!--para proteger el envio de datos -->

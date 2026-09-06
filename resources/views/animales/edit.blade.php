@@ -4,7 +4,10 @@
 <div class="container mx-auto p-4 max-w-md">
     
     <div class="bg-slate-800 rounded-lg shadow-lg p-6">
-        <h1 class="text-3xl font-bold mb-6 text-fuchsia-400">Editar Datos </h1>
+        <h1 class="text-3xl font-bold mb-6 text-white">Editar Datos </h1>
+        <p class="text-gray-200 text-lg mb-6">
+            Modifica los datos del animal.
+        </p>
 
         <!-- Envía los datos a la ruta 'animales.update' pasando el ID
            method: Usamos @method('PUT') para simular la petición PUT

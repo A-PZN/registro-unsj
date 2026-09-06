@@ -6,7 +6,7 @@
 <div class="max-w-4xl mx-auto space-y-8">
 
     <!-- Mensajes de  error/exito -->
-    <!--Busca en la session si exite una clave llameda succes si es asi muetra el en mensaje-->
+    <!--Busca en la session si exite una clave llamada success si es asi muestra el  mensaje-->
     @if(session('success'))
         <div class="bg-green-600 text-white p-4 rounded-lg shadow-lg flex items-center justify-between">
             <span>{{ session('success') }}</span>
@@ -62,7 +62,7 @@
         </div>
 
         @if(count($animales) === 0)
-            <!--Si esta vacia la lista muetra un mensaje-->
+            <!--Si esta vacia la lista muestra un mensaje-->
             <div class="text-center py-10">
                 <div class="text-6xl mb-4 opacity-50">🐕</div>
                 <p class="text-gray-400 text-lg">No hay animales registrados aún.</p>
